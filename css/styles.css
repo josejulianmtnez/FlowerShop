@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+* {
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Montserrat', serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', cursive;
+    color: #F8BBCD;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 48px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery {
+    display: grid;
+}
+
+.thumbnail {
+    width: 167px;
+    height: 157px;
+    border-radius: 10px;
+}
+
+.product-display .main-image {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.product-details {
+    max-width: 400px;
+    display: flex;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.customize {
+    border: 2px solid #F8BBCD;
+    background: none;
+    color: #F8BBCD;
+}
+
+.buy {
+    background: #F8BBCD;
+    color: white;
+    border: none;
+    width: 406px;
+    height: 65px;
+    border-radius: 30px;
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+}
+
+.gallery img{
+    width: 130px;
+    height: 150px;
+}
+
+.price {
+    color: #F8BBCD;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.description {
+    text-align: justify;
+}
